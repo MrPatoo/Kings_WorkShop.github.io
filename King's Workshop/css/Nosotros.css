@@ -1,0 +1,63 @@
+.CNT{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.imgC{
+    width: 60%;
+    background-color: rgb(60, 78, 158);
+    padding: 4% 1% 1% 1%;
+    border-radius: 5px 0 5px 0;
+}
+
+.infC{
+    background-color: rgb(51, 55, 116); 
+    width: 40%;
+    padding: 2%;
+    border-radius: 0 5px  5px 0 ;
+}
+
+.sitiosCNT{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+
+.InfS{
+    padding: 0 0 0  5%;
+    background-color: rgb(114, 114, 244);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.imgL{
+    padding: 1%;
+}
+@media only screen and (max-device-width: 767px){
+    .imgC{
+        width: 60%;
+        padding: 10% 1% 1% 1%;
+    }
+    
+}
+@media only screen and (max-device-width: 1051px){
+    .CNT{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .infC{
+        width: 100%;
+        padding: 2%;
+        border-radius: 0 0 5px 5px ;
+    }
+    .imgC{
+        width: 100%; height: auto;
+        padding: 4%;
+        border-radius: 5px 5px 0 0 ;
+    }
+}

@@ -1,0 +1,82 @@
+.CNT{
+    background-color: rgb(51, 55, 116); 
+    border-radius: 5px;
+    padding: 3%;
+    flex-direction: row;
+    display: flex;
+}
+
+.CNTE{
+    padding: 3%;
+    background-color: rgb(114, 114, 244);
+    flex-direction: row;
+    display: flex;
+    border-radius: 5px;
+}
+
+.imgC{
+    padding: 1%;
+    background-color: rgb(196, 195, 255);
+    width: 40%;
+    border-radius: 5px ;
+}
+
+.DesC{
+    background-color: rgb(51, 55, 116); 
+    width: 60%;
+    padding: 3%;
+    border-radius: 0 5px 5px 0;
+}
+
+.imgCc{
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    border-radius: 5px;
+}
+.INFC{
+    padding: 3%;
+    border-radius: 0 5px 5px 0;
+    background-color: rgb(149, 149, 255);
+    width: 100%;
+}
+
+@media only screen and (max-device-width: 1287px){
+    .CNT{
+        padding: 5%;
+        flex-direction: column;
+        display: flex;
+    }
+    .imgC{
+        padding: 5%;
+        width: 100%;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .imgCc{
+        width: 20%;
+    }
+    .CNTE{
+        padding: 2%;
+        flex-direction: row;
+        display: flex;
+    }
+    .DesC{
+        width: 100%;
+        padding: 3%;
+        border-radius:  0 0 5px 5px;
+    }
+    .INFC{
+        padding: 1%;
+    }
+    
+}
+
+@media only screen and (max-device-width: 
+793px){
+    .CNTE{
+        width: 0 30 0 30%;
+        flex-direction: column;
+        display: flex;
+    }
+}

@@ -1,0 +1,42 @@
+body{
+    background-color: #2d4263;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.titulo {
+   text-align: center;
+}
+
+#tituloid{
+    margin-bottom: 30px;
+}
+
+h6{
+    color: white;
+    }
+h3{
+color: white;
+}
+h4{
+    color: aliceblue;
+}
+h1{
+    color: white;
+}    
+
+.textopequeño{
+    color: white;
+    position: relative;
+    left: 50%;
+}
+

@@ -1,0 +1,7 @@
+.CTN{
+    display: flex;
+    flex-direction: row;
+}
+ main{
+    justify-content: center;
+ }
